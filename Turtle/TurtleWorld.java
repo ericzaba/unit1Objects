@@ -6,23 +6,13 @@ public class TurtleWorld
     {
         World turtleWorld = new World();
         Turtle turtle = new Turtle(turtleWorld);
-        turtle.setPenColor(Color.RED);
+        turtle.setPenColor(Color.CYAN);
         turtle.penDown();
-        turtle.forward(50);
-        turtle.turn(45);
-        turtle.turn(-45);
-        turtle.forward(50);
-        turtle.turn(-45);
-        turtle.forward(50);
-        turtle.turn(90);
-        turtle.forward(50);
-        turtle.turn(45);
-        turtle.forward(50);
-        turtle.turn(90);
-        turtle.forward(50);
-        turtle.turn(45);
-        turtle.forward(50);
-        turtle.turn(150);
+        turtle.setPenWidth(5);
         turtle.forward(20);
+        double x=1;
+        turtle.move(x, Math.pow(2));
+        
+        
     }
 }
