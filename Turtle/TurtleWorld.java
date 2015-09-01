@@ -11,12 +11,11 @@ public class TurtleWorld
         turtle.setPenWidth(5);
         turtle.forward(20);
         while (1<2){
+            int x = 1;
+            int y = 1;
+            turtle.moveTo(x, y);
+            turtle.moveTo(x-1, y-1);
             
-            int x=1;
-            turtle.forward(x+1);
-            int y = x+1;
-            turtle.turn(90);
-            turtle.forward(y);
+        }
     }
-}
 }
